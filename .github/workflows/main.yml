@@ -54,7 +54,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: docker push kotyancutetyan/infra_actions:latest
+          tags: docker push kotyancutetyan/infra_actions:v0.0
           
 
   deploy:
